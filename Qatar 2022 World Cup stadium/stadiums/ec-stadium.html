@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="icon" href="../assets/images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="../assets/styles/mobile-nav.css">
+        <link rel="stylesheet" type="text/css" href="../assets/styles/custom.css">
+        <link rel="stylesheet" type="text/css" href="../assets/styles/tachyons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+        <title>Education City Stadium | World Cup 2022 Stadiums</title>
+    </head>
+    <body>
+        <!-- Large screen menu -->
+        <nav id="main-nav" class="flex flex-row">
+            <div id="nav-logo">
+                <img src="../assets/images/wc2022logo-horizontal-light.png" alt="World Cup 2022 Logo">
+            </div>
+            <div id="nav-links">
+                <a href="../home.html">Home</a>
+                <a href="../why-visit.html">Why Visit?</a>
+                <div class="dropdown" id="selected-menu-item">
+                    <button id="selected-dropbtn" class="dropbtn">Stadiums <i class="pl1 fa fa-caret-down" title = "Stadium Dropdown"></i></button>
+                    <div class="dropdown-content">
+                        <a href="../stadiums/al-bayt-stadium.html">Al Bayt Stadium</a>
+                        <a href="../stadiums/al-janoub-stadium.html">Al Janoub Stadium</a>
+                        <a href="">EC Stadium</a>
+                        <a href="../stadiums/lusail-stadium.html">Lusail Stadium</a>
+                    </div>
+                </div>
+                <a href="../events.html">Events</a>
+            </div>
+        </nav>
+        <!-- Large screen menu -->
+
+        <!-- Mobile menu -->
+        <button id="burger" class="open-mobile-nav">
+            <span class="burger"></span>
+            <span class="burger-text">Menu</span>
+        </button>
+
+        <nav class="mobile-nav" id="mobile-nav">
+            <ul>
+                <li>
+                    <a href="../home.html">Home</a>
+                </li>
+                <li>
+                    <a href="../why-visit.html">Why Visit?</a>
+                </li>
+                <li>
+                    <a href="al-bayt-stadium.html">Al Bayt Stadium</a>
+                </li>
+                <li>
+                    <a href="al-janoub-stadium.html">Al Janoub Stadium</a>
+                </li>
+                <li>
+                    <a href="ec-stadium.html">Education City Stadium</a>
+                </li>
+                <li>
+                    <a href="lusail-stadium.html">Lusail Stadium</a>
+                </li>
+                <li>
+                    <a href="../events.html">Events</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Mobile menu -->
+
+        <div class="container stadium-container" id="ec-stadium">
+            
+            <div class="full-width-banner">
+                <h1 class="text-gold">Education City Stadium</h1>
+            </div>
+
+            <div class="flex flex-column w-100">
+                <div id="stadium-top-nav">
+                    <button onclick="window.location.href='#stadium-event';">EVENTS</button>
+                    <button onclick="window.location.href='#stadium-significance';">CULTURAL SIGNIFICANCE</button>
+                    <button onclick="window.location.href='#stadium-sustainability';">SUSTAINABILITY</button>
+                    <button onclick="window.location.href='#stadium-transportation';">TRANSPORTATION</button>
+                </div>
+                    
+                <div id="stadium-content">
+                    <div id="stadium-event">
+                        <h2>EVENTS</h2>
+                        <div class="flex flex-wrap pt2">
+                            <div class="eventList">
+                                <img src="../assets/images/destination-box.jpg" alt="Destination Box">
+                                        <div class="event-info">
+                                            <div class="flex flex-row">
+                                                <span class="event-title w-80">Destination Box</span>
+                                                <a class="insta-link" title = "Instagram" href="https://www.instagram.com/destinationboxqatar/"><i class='fa fa-instagram'></i></a>
+                                            </div>
+                                            <p class="flex flex-row">
+                                                <strong class="w-80">1st - 31st Jul</strong>
+                                                <span class="w-20">Thu - Sat</span>
+                                            </p>
+                                            <p>Visit the largest and the most famous drive thru in Qatar</p>
+                                        </div>
+                            </div>
+
+                            <div class="eventList">
+                                <img src="../assets/images/volleyball.jpg" alt="GCC Junior Championship">
+                                        <div class="event-info">
+                                            <div class="flex flex-row">
+                                                <span class="event-title w-80">GCC Junior Championship</span>
+                                                <a class="insta-link" title = "Instagram" href="https://www.instagram.com/qatar_olympic/?hl=en"><i class='fa fa-instagram'></i></a>
+                                            </div>
+                                            <p class="flex flex-row">
+                                                <strong class="w-80">1st Aug</strong>
+                                                <span class="w-20">Sun</span>
+                                            </p>
+                                            <p>GCC Junior Championship</p>
+                                        </div>
+                            </div>
+
+                            <div class="eventList">
+                                <img src="../assets/images/qiff.jpg" alt="Qatar International Food Festival Tower">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Qatar International Food Festival</span>
+                                            <a class="insta-link" title = "External Webpage" href="https://www.qf.org.qa/events/qatar-international-food-festival"><i class='fa fa-globe'></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">4th - 20th Nov</strong>
+                                            <span class="w-20">Thu - Sat</span>
+                                        </p>
+                                        <p>Experience the culture of the world through food! The Qatar international Food Festival gives you the chance to taste the best food from around the world</p>
+                                    </div>
+                            </div>
+
+
+                        <!--  --------------------------------------------------------------------------------------------------------  -->
+                        <!-- Add the section of the code above this line, as instructed on the Readme.md file -->
+                        <!--  --------------------------------------------------------------------------------------------------------  -->
+                        </div>
+                    </div>
+                    <div id="stadium-significance" class="bg-light-gray">
+                        <h2>CULTURAL SIGNIFICANCE</h2>
+                        <div class="flex flex-row">
+                            <div>
+                                <p>
+                                    <strong>Education City Stadium</strong> is a 40,000-seat football stadium located in Al Rayyan. It is located within several university campuses at the Qatar Foundation's Education City.
+                                </p>
+                                <p>
+                                    The Stadium has a design that draws on the rich history of Islamic architecture, blending it with striking modernity. The facade features triangles that form complex, diamond-esque geometrical patterns, appearing to change color with the sun's movement across the sky. The enclosed outer shell is shaped to resemble a diamond, highly reflective during the day and illuminated with thousands of diodes in the night. With partially perforated cladding it will also provide sufficient control of temperatures inside, enabling to maintain 24-28 degrees no matter the weather.
+                                </p>
+                                <p>
+                                    Like diamonds, the stadium's design represents quality, durability, and resilience, and will become something to be treasured in the times to come.
+                                </p>
+                            </div>
+                            <img class="w-50" src="../assets/images/ec-statdium-culture.jpg" alt="top down image of stadium">
+                        </div>
+                    </div>
+                    <div id="stadium-sustainability">
+                        <h2>SUSTAINABILITY</h2>
+                        <div class="flex flex-row">
+                            <div>
+                                <p>
+                                    In January 2019, the stadium received a 5-star design and build rating from the Global Sustainability Assessment System (GSAS).
+                                </p>
+                                <p>
+                                    The stadium is equipped with photovoltaic panels, which are embedded into the cladding, providing up to 20% of matchday power demand. Even after the tournament is over, the stadium will remain a focal point of the community long. Long-term, the stadium will become an attraction for students and surrounding communities through its three world-class sporting pavilions: one for swimming, one for indoor sports, and a final pavilion for a track and field stadium. Training pitches and other sporting facilities radiate outwards from the stadium, all within easy reach of the local academic community.
+                                </p>
+                                <p>
+                                    The stadium is a clear demonstration of Qatar's commitment to sustainability and will focus on promoting a green, healthy future for all of us.
+                                </p>
+                            </div>
+                            <img class="w-50" src="../assets/images/ec-statdium-sustainability.jpg" alt="Presentation of award for the stadium">
+                        </div>
+                    </div>
+                    <div id="stadium-transportation" class="bg-light-gray">
+                        <h2>TRANSPORTATION</h2>
+                        <h3>By Metro</h3>
+                        <div class="flex flex-row by-metro">
+                            <div class="by-metro-text">
+                                <h4>Option 1</h4>
+                                <ul>
+                                    <li>Take the green line on metro and stop at <b>Education City Station</b></li>
+                                    <li>Take the free <b>Education City Tram Service</b> and stop at <b>Education City Stadium stop</b></li>
+                                    <li>Walk for 2 minutes from the tram stop to Education City Stadium entrance</li>
+                                </ul>
+                                <hr>
+                                <h4>Option 2</h4>
+                                <ul>
+                                    <li>Take the green line on metro and stop at <b>Qatar National Library Station</b></li>
+                                    <li>Take the free <b>Education City Tram Service</b> and stop at <b>Education City Stadium stop</b></li>
+                                    <li>Walk for 2 minutes from the tram stop to Education City Stadium entrance</li>
+                                </ul>
+                            </div>
+                            <img class="w-50" src="../assets/images/ec-map-metro.png" alt="Train station location map">
+                        </div>
+                        <hr>
+                        <h3>By Car/Taxi</h3>
+                        <div class="flex flex-row by-car">
+                            <div class="by-car-text">
+                                <p>
+                                    Never in the modern history of the World Cup has the distance between the stadiums been so short.
+                                    The close proximity of the stadiums to each other as well as other prominent places will allow you 
+                                    to enjoy the world cup matches as well as all the fun activities around the country.
+                                </p>
+                                <p>
+                                    Being the south-most stadium in the country, Al Janoub is
+                                </p>
+                                <ul>
+                                    <li><b>21 km (Approx 28 min)</b> from <a href="../stadiums/lusail-stadium.html">Lusail Stadium</a></li>
+                                    <li><b>31 km (Approx 26 min)</b> from <a href="../stadiums/al-janoub-stadium.html">Al Janoub Stadium</a></li>
+                                    <li><b>48 km (Approx 38 min)</b> from <a href="../stadiums/al-bayt-stadium.html">Al Bayt Stadium</a></li>
+                                    <li><b>9 km (Approx 10 min)</b> from Mall of Qatar</li>
+                                    <li><b>13 km (Approx 16 min)</b> from Corniche</li>
+                                    <li><b>14 km (Approx 19 min)</b> from Souq Waqif</li>
+                                    <li><b>17 km (Approx 20 min)</b> from Katara</li>
+                                    <li><b>21 km (Approx 22 min)</b> from The Pearl</li>
+                                </ul>
+                            </div>
+                            <img class="w-50" src="../assets/images/ec-map-car.png" alt="Stadium location map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer id="footer">
+            <div class="linkToTop">
+                <a href="#ec-stadium"><i class="fa fa-chevron-up" title = "Back to top"></i>&nbsp;&nbsp;&nbsp;Back to top</a>
+            </div>
+            <div class="flex flex-row">
+                <div class="flex flex-column flex-row-ns footer-link">
+                    <a href="../stadiums/al-bayt-stadium.html" class="w-50 w-100-ns"> Al Bayt Stadium</a>
+                    <a href="../stadiums/al-janoub-stadium.html" class="w-50 w-100-ns"> Al Janoub Stadium</a>
+                </div>
+                <div id="logo-dark">
+                    <img src="../assets/images/wc2022logo-vertical.png" alt="Dark Logo">
+                </div>
+                <div class="flex flex-column flex-row-ns footer-link">
+                    <a href="../stadiums/ec-stadium.html" class="w-50 w-100-ns"> Education City Stadium</a>
+                    <a href="../stadiums/lusail-stadium.html" class="w-50 w-100-ns"> Lusail Stadium</a>
+                </div>
+            </div>
+            <hr class="horizontal-rule">
+            <div id="social-media">
+                <a href="https://www.facebook.com/anqi.jiang.982?hc_ref=ARS12QqIehERjRuzRe4-63UoOtIt4q0NNrdkpPLGw9w7fvj0P8XeFaMQM5Kaejs50BM&ref=nf_target" title="Facebook"><i class='fa fa-facebook'></i></a>
+                <a href="https://www.instagram.com/worldcupstadium2021/" title="Instagram"><i class='fa fa-instagram'></i></a>
+                <a href="https://weibo.com/u/7570451978" title="Weibo"><i class='fa fa-weibo'></i></a>
+            </div>
+            <p id="copyright">&#169; World Cup 2022 Stadiums</p>
+        </footer>
+        <!-- Script for mobile nav -->
+        <script src="../assets/script.js"></script>
+        <!-- Script for mobile nav -->
+    </body>
+</html>

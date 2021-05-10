@@ -1,0 +1,1303 @@
+@font-face{
+    font-family:"Qatar2022 Arabic Bold";
+    src:url(../fonts/Qatar2022Arabic-Bold.ttf)format('truetype');
+    font-weight: bold;
+}
+
+.w-20:hover{
+    opacity: 0.5;
+}
+
+/*scroll down indication icons*/
+.gg-push-chevron-down-o-one {
+    box-sizing: border-box;
+    position: absolute;
+    left: 49%;
+    top:60em;
+    display: block;
+    /*transform: scale(var(0,1));*/
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 100px
+}
+
+.gg-push-chevron-down-o-one::after,
+.gg-push-chevron-down-o-one::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-bottom: 2px solid
+}
+
+.gg-push-chevron-down-o-one::before {
+    bottom: 5px;
+    width: 8px;
+    height: 2px;
+    left: 5px
+}
+
+.gg-push-chevron-down-o-one::after {
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 3px
+}
+.gg-push-chevron-down-o-two {
+    box-sizing: border-box;
+    position: absolute;
+    left: 49%;
+    top:42em;
+    display: block;
+    /*transform: scale(var(0,1));*/
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 100px
+}
+
+.gg-push-chevron-down-o-two::after,
+.gg-push-chevron-down-o-two::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-bottom: 2px solid
+}
+
+.gg-push-chevron-down-o-two::before {
+    bottom: 5px;
+    width: 8px;
+    height: 2px;
+    left: 5px
+}
+
+.gg-push-chevron-down-o-two::after {
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 3px
+}
+
+iframe{
+    border:0;
+}
+
+#why-visit-page{
+    width: 100%;
+}
+
+#why-visit-header{
+    font-size: 2.5em;
+    font-family:"Qatar2022 Arabic Bold",SansSerif;
+    color: #edd37e;
+    position: absolute;
+    z-index: 10;
+    background-image: url("../images/whyvisit-header.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    top:0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#why-visit-text{
+    position:absolute;
+    left: 4%;
+    right:1%;
+    top:40%;
+}
+
+
+/*the whole content container*/
+.container{
+    width:80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top:28%;
+    z-index: 1;
+}
+
+
+/*"find food part including video and event links"*/
+.partone{
+    color:#222222;
+    position: absolute;
+    width: 100%;
+    top:5em;
+    font-family: Roboto,SansSerif;
+}
+
+
+
+/*title:we come for...*/
+.comefor{
+    position: absolute;
+    top:4em;
+    left: 5%;
+    right:1%;
+    font-size: 35px;
+    font-family:"Qatar2022 Arabic Bold",SansSerif;
+    font-weight: bold;
+}
+
+.video-one{
+    position: absolute;
+    top:20em;
+    width:62%;
+    height:35em;
+    left: 5%;
+    right: 1%;
+}
+
+
+/*for food and entertainment*/
+.for-food{
+    position: absolute;
+    top:10em;
+    left: 75%;
+    right: 2%;
+    font-size: 35px;
+}
+
+/*find latest food festivals and entertainment*/
+.find-food{
+    position: absolute;
+    top:38em;
+    left: 2%;
+    right: 20%;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/*food and entertainment events*/
+.event-list-one{
+    position: absolute;
+    top:65em;
+    width: 100%;
+    left: 1%;
+    right: 1%;
+    font-size: 15px;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+/*adjust width of each cell to 30%*/
+.event-list-one .eventList{
+    width: 29%;
+}
+
+/*let the navigation bar stay at the front*/
+.event-list-one image{
+    z-index: 1;
+    width:100%;
+}
+
+
+.rolltwo {
+    font-weight: bold;
+}
+
+/*redirect user to event page*/
+.view-more-one{
+    font-size: 14px;
+    font-family: Roboto,SansSerif;
+    color:#222222;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top:114em;
+}
+
+/*change the background color when hovering on "view more" link */
+.view-more-one a{
+    text-decoration: none;
+    color:#111111;
+    padding: 14px 16px;
+    margin: 1em;
+    border: 1px solid #aaa;
+    outline: none;
+    cursor: pointer;
+}
+
+.view-more-one a:hover{
+    font-weight: 800;
+    border: 2px solid #9e1c40;
+}
+
+/*"experience culture part including video and event links"*/
+.parttwo{
+    position: absolute;
+    top:145em;
+    width: 100%;
+    color:#222222;
+    font-family: Roboto,SansSerif;
+}
+
+.video-two{
+    position: absolute;
+    left: 30%;
+    right: 1%;
+    width:62%;
+    height:35em;
+}
+
+/*Experience Qatari Culture with people from all over the world*/
+.meetppl{
+    position: absolute;
+    top:2em;
+    left:5%;
+    right: 1%;
+    width: 20%;
+    font-size: 35px;
+}
+
+/*Find upcoming cultural and eduational events*/
+.cultural-events{
+    position: absolute;
+    top:29em;
+    left: 2%;
+    right: 1%;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/*cultural and educational events*/
+.event-list-two{
+    position: absolute;
+    top:50em;
+    left: 1%;
+    right: 1%;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+/*adjust width of each cell to 30%*/
+.event-list-two .eventList{
+    width: 29%;
+}
+
+/*extend the Biryani and Kebab Festival image a little bit to adapt to the cell*/
+#bbq{
+    width: 105%;
+}
+
+.event-info{
+    height: 20em;
+    padding: 2em 1em;
+    overflow: scroll;
+}
+
+/*let the navigation bar stay at the front*/
+.event-list-two image{
+    z-index: 1;
+    width:100%;
+}
+
+/*redirect user to event page*/
+.view-more-two{
+    font-size: 14px;
+    font-family: Roboto,SansSerif;
+    color:#222222;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top:98em;
+}
+
+/*change the background color when hovering on "view more" link */
+.view-more-two a{
+    text-decoration: none;
+    color:#111111;
+    padding: 14px 16px;
+    margin: 1em;
+    border: 1px solid #aaa;
+    outline: none;
+    cursor: pointer;
+}
+
+.view-more-two a:hover{
+    font-weight: 800;
+    border: 2px solid #9e1c40;
+}
+
+#footer{
+    position: absolute;
+    top:275em;
+    width: 100%;
+    text-align: center;
+    color:#222222;
+}
+
+/*for small screens (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    /*change the height of the heading image*/
+    #why-visit-header{
+        font-size: 2em;
+        font-family:"Qatar2022 Arabic Bold",SansSerif;
+        color: #edd37e;
+        position: absolute;
+        z-index: 10;
+        background-image: url("../images/whyvisit-header.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 175px;
+        top:0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    /*make the scroll down icons invisible*/
+    .gg-push-chevron-down-o-one {
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-one::before{
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-one::after{
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-two {
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-two::before{
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-two::after{
+        border-color: transparent;
+    }
+
+    /*hide the bigger nav bar*/
+    #why-visit-nav{
+        display: none;
+    }
+
+    .flex flex-row{
+        display: block;
+    }
+
+    .container{
+        width:90%;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top:10%;
+        z-index: 1;
+    }
+    .video-one{
+        position: absolute;
+        top:27em;
+        /*left: 5%;*/
+        width:90%;
+        height:14em;
+    }
+    .for-food{
+        position: absolute;
+        left: 5%;
+        font-size: 20px;
+        top:12em;
+        width:15em;
+    }
+    .find-food{
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+        top:37em;
+        width:15em;
+    }
+    .event-list-one{
+        position: absolute;
+        top:46em;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    /*adjust width of each cell to 30%*/
+    .event-list-one .eventList{
+        width: 90%;
+        height: 30%;
+    }
+
+    /*let the navigation bar stay at the front*/
+    .event-list-one image{
+        z-index: 1;
+    }
+
+    .rolltwo {
+        font-weight: bold;
+    }
+
+    /*redirect user to event page*/
+    .view-more-one{
+        font-size: 14px;
+        font-family: Roboto,SansSerif;
+        color:#222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top:175em;
+    }
+
+    .parttwo{
+        position: absolute;
+        top:200em;
+        width: 100%;
+        color:#222222;
+        font-family: Roboto,SansSerif;
+    }
+    .video-two{
+        position: absolute;
+        top:12em;
+        left:5%;
+        width:90%;
+        height:14em;
+    }
+    .meetppl{
+        position: absolute;
+        left: 5%;
+        font-size: 20px;
+        width:13em;
+    }
+
+    /*Find upcoming cultural and eduational events*/
+    .cultural-events{
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+        width:15em;
+        top:25em;
+    }
+
+    /*cultural and educational events*/
+    .event-list-two{
+        position: absolute;
+        top:32em;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    /*adjust width of each cell to 30%*/
+    .event-list-two .eventList{
+        width: 90%;
+        height: 30%;
+    }
+
+    /*let the navigation bar stay at the front*/
+    .event-list-two image{
+        z-index: 1;
+    }
+
+    /*redirect user to event page*/
+    .view-more-two{
+        font-size: 14px;
+        font-family: Roboto,SansSerif;
+        color:#222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top:157em;
+    }
+    #footer{
+        top:390em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px-768px) */
+/*divide the width into 601-689 and 689-767 to achieve better effect */
+@media only screen and (min-width: 601px) and (max-width: 689px) {
+    /*change the height of heading image*/
+    #why-visit-header{
+        font-size: 1.6em;
+        font-family:"Qatar2022 Arabic Bold",SansSerif;
+        color: #edd37e;
+        position: absolute;
+        z-index: 10;
+        background-image: url("../images/whyvisit-header.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 150px;
+        top:0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    /*make the scroll down icons invisible*/
+    .gg-push-chevron-down-o-one {
+        border-color: transparent;
+    }
+
+    .gg-push-chevron-down-o-one::before {
+        border-color: transparent;
+    }
+
+    .gg-push-chevron-down-o-one::after {
+        border-color: transparent;
+    }
+
+    .gg-push-chevron-down-o-two {
+        border-color: transparent;
+    }
+
+    .gg-push-chevron-down-o-two::before {
+        border-color: transparent;
+    }
+
+    .gg-push-chevron-down-o-two::after {
+        border-color: transparent;
+    }
+
+    /*hide the bigger nav bar*/
+    #why-visit-nav{
+        display: none;
+    }
+
+    .flex flex-row{
+        display: block;
+    }
+
+    .container {
+        width: 90%;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top:5%;
+        z-index: 1;
+    }
+
+    .video-one {
+        position: absolute;
+        top: 25em;
+        /*left: 5%;*/
+        width: 62%;
+        height: 17em;
+    }
+
+    .for-food {
+        position: absolute;
+        left: 5%;
+        font-size: 20px;
+        top: 12em;
+        width: 15em;
+    }
+
+    .find-food {
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+        top: 37em;
+        width: 15em;
+    }
+
+    .event-list-one {
+        position: absolute;
+        top: 46em;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    /*adjust width of each cell to 30%*/
+    .event-list-one .eventList {
+        width: 90%;
+        height: 30%;
+    }
+
+    /*let the navigation bar stay at the front*/
+    .event-list-one image {
+        z-index: 1;
+    }
+
+    .rolltwo {
+        font-weight: bold;
+    }
+
+    /*redirect user to event page*/
+    .view-more-one {
+        font-size: 14px;
+        font-family: Roboto, SansSerif;
+        color: #222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 197em;
+    }
+
+    .parttwo {
+        position: absolute;
+        top: 227em;
+        width: 100%;
+        color: #222222;
+        font-family: Roboto, SansSerif;
+    }
+
+    .video-two {
+        position: absolute;
+        top: 12em;
+        left: 5%;
+        width: 62%;
+        height: 17em;
+    }
+
+    .meetppl {
+        position: absolute;
+        left: 5%;
+        font-size: 20px;
+        width: 13em;
+    }
+
+    /*Find upcoming cultural and educational events*/
+    .cultural-events {
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+        width: 15em;
+        top: 25em;
+    }
+
+    /*cultural and educational events*/
+    .event-list-two {
+        position: absolute;
+        top: 32em;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    /*adjust width of each cell to 30%*/
+    .event-list-two .eventList {
+        width: 90%;
+        height: 30%;
+    }
+
+    /*let the navigation bar stay at the front*/
+    .event-list-two image {
+        z-index: 1;
+    }
+
+    /*redirect user to event page*/
+    .view-more-two {
+        font-size: 14px;
+        font-family: Roboto, SansSerif;
+        color: #222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 182em;
+    }
+
+    #footer {
+        top: 430em;
+    }
+}
+
+/*break up the width 600px-768px into two pieces(600-730,730-768) to better adjust the responsiveness*/
+@media only screen and (min-width: 690px) and (max-width: 767px) {
+    /*change the height of heading image*/
+    #why-visit-header{
+        font-size: 1.6em;
+        font-family:"Qatar2022 Arabic Bold",SansSerif;
+        color: #edd37e;
+        position: absolute;
+        z-index: 10;
+        background-image: url("../images/whyvisit-header.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 150px;
+        top:0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    /*make the scroll down icons invisible*/
+    .gg-push-chevron-down-o-one {
+        border-color: transparent;
+    }
+
+    .gg-push-chevron-down-o-one::before {
+        border-color: transparent;
+    }
+
+    .gg-push-chevron-down-o-one::after {
+        border-color: transparent;
+    }
+
+    .gg-push-chevron-down-o-two {
+        border-color: transparent;
+    }
+
+    .gg-push-chevron-down-o-two::before {
+        border-color: transparent;
+    }
+
+    .gg-push-chevron-down-o-two::after {
+        border-color: transparent;
+    }
+
+    /*hide the bigger nav bar*/
+    #why-visit-nav{
+        display: none;
+    }
+
+    .flex flex-row{
+        display: block;
+    }
+
+    .container {
+        width: 90%;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top:5%;
+        z-index: 1;
+    }
+
+    .video-one {
+        position: absolute;
+        top: 25em;
+        /*left: 5%;*/
+        width: 62%;
+        height: 17em;
+    }
+
+    .for-food {
+        position: absolute;
+        left: 5%;
+        font-size: 20px;
+        top: 12em;
+        width: 15em;
+    }
+
+    .find-food {
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+        top: 37em;
+        width: 15em;
+    }
+
+    .event-list-one {
+        position: absolute;
+        top: 46em;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    /*adjust width of each cell to 30%*/
+    .event-list-one .eventList {
+        width: 90%;
+        height: 30%;
+    }
+
+    /*let the navigation bar stay at the front*/
+    .event-list-one image {
+        z-index: 1;
+    }
+
+    .rolltwo {
+        font-weight: bold;
+    }
+
+    /*redirect user to event page*/
+    .view-more-one {
+        font-size: 14px;
+        font-family: Roboto, SansSerif;
+        color: #222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 205em;
+    }
+
+    .parttwo {
+        position: absolute;
+        top: 230em;
+        width: 100%;
+        color: #222222;
+        font-family: Roboto, SansSerif;
+    }
+
+    .video-two {
+        position: absolute;
+        top: 12em;
+        left: 5%;
+        width: 62%;
+        height: 17em;
+    }
+
+    .meetppl {
+        position: absolute;
+        left: 5%;
+        font-size: 20px;
+        width: 13em;
+    }
+
+    /*Find upcoming cultural and eduational events*/
+    .cultural-events {
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+        width: 15em;
+        top: 25em;
+    }
+
+    /*cultural and educational events*/
+    .event-list-two {
+        position: absolute;
+        top: 32em;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    /*adjust width of each cell to 30%*/
+    .event-list-two .eventList {
+        width: 90%;
+        height: 30%;
+    }
+
+    /*let the navigation bar stay at the front*/
+    .event-list-two image {
+        z-index: 1;
+    }
+
+    /*redirect user to event page*/
+    .view-more-two {
+        font-size: 14px;
+        font-family: Roboto, SansSerif;
+        color: #222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 190em;
+    }
+
+    #footer {
+        top: 445em;
+    }
+}
+
+/*for middle screens like tablets and ipads*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /*change the height of heading image*/
+    #why-visit-header{
+        font-size: 2.2em;
+        font-family:"Qatar2022 Arabic Bold",SansSerif;
+        color: #edd37e;
+        position: absolute;
+        z-index: 10;
+        background-image: url("../images/whyvisit-header.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 175px;
+        top:0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    /*make the scroll down icons invisible*/
+    .gg-push-chevron-down-o-one {
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-one::before{
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-one::after{
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-two {
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-two::before{
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-two::after{
+        border-color: transparent;
+    }
+
+    /*hide the bigger nav bar*/
+    #why-visit-nav{
+        display: none;
+    }
+
+    .flex flex-row{
+        display: block;
+    }
+
+    .container{
+        width:90%;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top:5%;
+        z-index: 1;
+    }
+    .video-one{
+        position: absolute;
+        top:25em;
+        /*left: 5%;*/
+        width:48em;
+        height:27em;
+    }
+    .for-food{
+        position: absolute;
+        left: 5%;
+        font-size: 20px;
+        top:12em;
+        width:23em;
+    }
+    .find-food{
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+        top:46em;
+        width:23em;
+    }
+    .event-list-one{
+        position: absolute;
+        left: 3%;
+        top:55em;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    /*adjust width of each cell to 30%*/
+    .event-list-one .eventList{
+        width: 28%;
+        height: 30%;
+    }
+
+    /*let the navigation bar stay at the front*/
+    .event-list-one image{
+        z-index: 1;
+    }
+
+    .rolltwo {
+        font-weight: bold;
+    }
+
+    /*redirect user to event page*/
+    .view-more-one{
+        font-size: 14px;
+        font-family: Roboto,SansSerif;
+        color:#222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top:90em;
+    }
+
+    .parttwo{
+        position: absolute;
+        top:110em;
+        width: 100%;
+        color:#222222;
+        font-family: Roboto,SansSerif;
+    }
+    .video-two{
+        position: absolute;
+        top:10em;
+        left:5%;
+        width:48em;
+        height:27em;
+    }
+    .meetppl{
+        position: absolute;
+        left: 5%;
+        font-size: 20px;
+        width:34em;
+    }
+
+    /*Find upcoming cultural and eduational events*/
+    .cultural-events{
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+        width:23em;
+        top:34em;
+    }
+
+    /*cultural and educational events*/
+    .event-list-two{
+        position: absolute;
+        left: 3%;
+        top:41em;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    /*adjust width of each cell to 30%*/
+    .event-list-two .eventList{
+        width: 28%;
+        height: 30%;
+    }
+
+    /*let the navigation bar stay at the front*/
+    .event-list-two image{
+        z-index: 1;
+    }
+
+    /*redirect user to event page*/
+    .view-more-two{
+        font-size: 14px;
+        font-family: Roboto,SansSerif;
+        color:#222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top:76em;
+    }
+    #footer{
+        top:200em;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /*make the scroll down icons invisible*/
+    .gg-push-chevron-down-o-one {
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-one::before{
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-one::after{
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-two {
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-two::before{
+        border-color: transparent;
+    }
+    .gg-push-chevron-down-o-two::after{
+        border-color: transparent;
+    }
+    .container{
+        width:90%;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top:25%;
+        z-index: 1;
+    }
+    .video-one{
+        position: absolute;
+        top:25em;
+        /*left: 5%;*/
+        width:48em;
+        height:27em;
+    }
+    .for-food{
+        position: absolute;
+        left: 5%;
+        font-size: 20px;
+        top:12em;
+        width:23em;
+    }
+    .find-food{
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+        top:46em;
+        width:23em;
+    }
+    .event-list-one{
+        position: absolute;
+        left: 3%;
+        top:55em;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    /*adjust width of each cell to 30%*/
+    .event-list-one .eventList{
+        width: 28%;
+        height: 30%;
+    }
+
+    /*let the navigation bar stay at the front*/
+    .event-list-one image{
+        z-index: 1;
+    }
+
+    .rolltwo {
+        font-weight: bold;
+    }
+
+    /*redirect user to event page*/
+    .view-more-one{
+        font-size: 14px;
+        font-family: Roboto,SansSerif;
+        color:#222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top:93em;
+    }
+
+    .parttwo{
+        position: absolute;
+        top:110em;
+        width: 100%;
+        color:#222222;
+        font-family: Roboto,SansSerif;
+    }
+    .video-two{
+        position: absolute;
+        top:10em;
+        left:5%;
+        width:48em;
+        height:27em;
+    }
+    .meetppl{
+        position: absolute;
+        left: 5%;
+        font-size: 20px;
+        width:34em;
+    }
+
+    /*Find upcoming cultural and eduational events*/
+    .cultural-events{
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+        width:23em;
+        top:34em;
+    }
+
+    /*cultural and educational events*/
+    .event-list-two{
+        position: absolute;
+        left: 3%;
+        top:41em;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+
+    /*adjust width of each cell to 30%*/
+    .event-list-two .eventList{
+        width: 28%;
+        height: 30%;
+    }
+
+    /*let the navigation bar stay at the front*/
+    .event-list-two image{
+        z-index: 1;
+    }
+
+    /*redirect user to event page*/
+    .view-more-two{
+        font-size: 14px;
+        font-family: Roboto,SansSerif;
+        color:#222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top:79em;
+    }
+    #footer{
+        top:212em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width:1200px) and (max-width: 1280px) {
+    .video-one{
+        position: absolute;
+        top:20em;
+        width:64em;
+        height:35em;
+        left: 5%;
+        right: 1%;
+    }
+    .video-two{
+        position: absolute;
+        left: 30%;
+        right: 1%;
+        width:64em;
+        height:35em;
+    }
+    .container{
+        width:90%;
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top:25%;
+        z-index: 1;
+    }
+
+    /*condense "for food and festival" to a narrower space*/
+    .for-food{
+        position: absolute;
+        text-align: left;
+        top:10em;
+        left: 82%;
+        right: 2%;
+        font-size: 35px;
+    }
+
+    /*redirect user to event page*/
+    .view-more-one{
+        font-size: 14px;
+        font-family: Roboto,SansSerif;
+        color:#222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top:116em;
+    }
+    .view-more-two{
+        font-size: 14px;
+        font-family: Roboto,SansSerif;
+        color:#222222;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top:100em;
+    }
+    #footer{
+        top:290em;
+    }
+}
+
+ /*for devices with very large screens (15-17 inch laptop or PC)*/
+@media only screen and (min-width:1280px) {
+    #footer{
+        top:278em;
+    }
+}

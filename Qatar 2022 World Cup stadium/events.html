@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="icon" href="assets/images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="assets/styles/mobile-nav.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/custom.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/tachyons.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/events.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+        <title>Events | World Cup 2022 Stadiums</title>
+    </head>
+    <body>
+        <nav id="main-nav" class="flex flex-row">
+            <div id="nav-logo">
+                <img src="assets/images/wc2022logo-horizontal-light.png" alt="World Cup 2022 Logo">
+            </div>
+            <div id="nav-links">
+                <a href="home.html">Home</a>
+                <a href="why-visit.html">Why Visit?</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Stadiums <i class="pl1 fa fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="stadiums/al-bayt-stadium.html">Al Bayt Stadium</a>
+                        <a href="stadiums/al-janoub-stadium.html">Al Janoub Stadium</a>
+                        <a href="stadiums/ec-stadium.html">EC Stadium</a>
+                        <a href="stadiums/lusail-stadium.html">Lusail Stadium</a>
+                    </div>
+                </div>
+                <a id="selected-menu-item" href="events.html">Events</a>
+            </div>
+        </nav>
+
+        <!-- Mobile menu -->
+        <button id="burger" class="open-mobile-nav">
+            <span class="burger"></span>
+            <span class="burger-text">Menu</span>
+        </button>
+        
+        <nav class="mobile-nav" id="mobile-nav">
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="why-visit.html">Why Visit?</a>
+                </li>
+                <li>
+                    <a href="stadiums/al-bayt-stadium.html">Al Bayt Stadium</a>
+                </li>
+                <li>
+                    <a href="stadiums/al-janoub-stadium.html">Al Janoub Stadium</a>
+                </li>
+                <li>
+                    <a href="stadiums/ec-stadium.html">Education City Stadium</a>
+                </li>
+                <li>
+                    <a href="stadiums/lusail-stadium.html">Lusail Stadium</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Mobile menu -->
+
+        <div class="container" id="events">
+            <!--Head picture-->
+            <div id="headPic">
+                <h1 id="eventHeader">Events</h1>
+            </div>
+
+            <!--Events-->
+            <div class="flex flex-column w-100">
+                <div id="eventsSelector" class="w-100 f7 flex flex-wrap">
+                    <button onclick="window.location.href='#jan';" class="month-selector">JAN</button>
+                    <button onclick="window.location.href='#feb';" class="month-selector">FEB</button>
+                    <button onclick="window.location.href='#mar';" class="month-selector">MAR</button>
+                    <button onclick="window.location.href='#apr';" class="month-selector">APR</button>
+                    <button onclick="window.location.href='#may';" class="month-selector">MAY</button>
+                    <button onclick="window.location.href='#jun';" class="month-selector">JUN</button>
+                    <button onclick="window.location.href='#jul';" class="month-selector">JUL</button>
+                    <button onclick="window.location.href='#aug';" class="month-selector">AUG</button>
+                    <button onclick="window.location.href='#sep';" class="month-selector">SEP</button>
+                    <button onclick="window.location.href='#oct';" class="month-selector">OCT</button>
+                    <button onclick="window.location.href='#nov';" class="month-selector">NOV</button>
+                    <button onclick="window.location.href='#dec';" class="month-selector">DEC</button>
+                </div>
+
+                <div id="eEvents">
+                    <div id="jan">
+                        <h2 class="flex flex-column w-100">JAN 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/hot-air-balloons.jpg" alt="Hot air balloon festival post">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Qatar Hot Air Balloon Festival</span>
+                                            <a class="insta-link" title="Website Link" href="http://www.qatarballoonfestival.com/"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">1st - 10th Jan</strong>
+                                            <span class="w-20">Thu - Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="position icon"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p>13 countries, tt least 30 balloons from around the world will be visible during the festival.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/Al-Khor-Carnival-2021.jpeg" alt="Al Khor Carnival post">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Al Khor Carnival</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/carnivalalkhor/"><i class='fa fa-instagram'  title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">23rd Jan - 6th Feb</strong>
+                                            <span class="w-20">Mon - Fri</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="position icon"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p>Find everything from the latest abaya collections, fragrant oud, home plants, food items and even jewellery at the bazaar. And a great place to visit with your children!</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/heroes-of-hope.jpg" alt="Heroes of Hope Post">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Heroes of Hope</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.iloveqatar.net/events/community/heroes-of-hope-at-education-city-stadium-opening"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">25th Jan</strong>
+                                            <span class="w-20">Mon</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>We are pleased to announce the release of ''Champions of Hope'', a special program honouring frontline workers who are doing their best to fight Coronavirus pandemic (COVID-19).</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/Grand-Prix-of-Doha.jpeg" alt="Grand Prix Post">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Grand Prix</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.iloveqatar.net/events/sports/grand-prix-of-doha-2021"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">25th - 29th Jan</strong>
+                                            <span class="w-20">Mon - Fri</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/lusail-stadium.html" title="Lusail Stadium">Lusail Stadium</a></p>
+                                        <p>2021 QATAR GRAND PRIX will take place from 25th Jan at the Lusail Stadium and it will be the opening race of the season under the floodlights.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="feb">
+                        <h2 class="flex flex-column w-100">FEB 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/Torba-Farmers-Market.jpg" alt="Torba Farmers Market Post">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Torba Farmers Market</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.iloveqatar.net/events/community/torba-farmers-market-2020"><i class='fa fa-globe'  title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">1st - 28th Feb</strong>
+                                            <span class="w-20">Mon - Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>The Torba Farmers Market features local fresh produce, artisan products and gourmet handmade food. It’s a great place for coffee and breakfast, as well as a spot of shopping.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/national-sports-day.png" alt="National Sports Day Post">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">National Sports Day</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.marhaba.qa/qatar-national-sport-day-2021/?__cf_chl_jschl_tk__=6049bfd2611e2e95f4872f168c646b32b47c769e-1617323304-0-AbbCq_-O4GDkIFJlgz1pM2FrbCoDs7wAFS4LFL0rMRMBuWygxKZUmunuH160W5hfxjgUBgof6eozQSkoCjjcGcJvEHK107LGQXVJltqMe-p45B80RQP3qdzNUjAamrQ77KX1CJb_XkiNRjYfnzP0uP90AMWVlzT8d-GaqnDhBilWvoBuOgU0GgvPUElRyEUuoRBbpL6rtQHTt_58SfeQNWAK-1J-bFWmoAEpon_dP9i-sBvVd0Genh1Mw5c70A5-7ylSKdmq4fFkJTVSglgadYwAuba5-Y0qsW_1mGfaZ6et9Ud8fWTzHjTQkUVk4NUw8TF1J1MMW5e__9JoWz3UOyIljwvIVo2awsPnlCQFvVtZlDwU1pdK0YYranmaQ_I4w6RnrCMVxik1xksOtNhHd0CgLuzn8St9cNIIxTVd-RUAyz55x2o3iO0PovR8A40G6iRH3rQhStldYb9AV5a22t_Gg9hEUx8bE9bqJNf58LyC"><i class='fa fa-globe'  title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">9th Feb</strong>
+                                            <span class="w-20">Tue</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-janoub-stadium.html" title="Al Janoub Stadium">Al Janoub Stadium</a></p>
+                                        <p>The activities range from football to basketball, cycling to swimming, with countless free sporting sessions and social competitions, available to all ages and abilities to ensure everyone has the opportunity to participate in sport.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/international-cultural-market.png" alt="International Cultural Market Post">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">International Cultural Market</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.katara.net/en/whats-on/events/the-international-handicrafts-and-traditional-productions-cultural-market"><i class='fa fa-globe'  title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">15th - 28th Feb</strong>
+                                            <span class="w-20">Mon - Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Link"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p>If you are an enthusiast of heritage & handicrafts, we invite you to participate the International Cultural Market. You will dicover all sorts of handicrafts and traditional Productions from all over the world.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="mar">
+                        <h2 class="flex flex-column w-100">MAR 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/artistic-gymnastics-world-cup.jpeg" alt="13th Artistic Gymnastics World Cup Post">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">13th Artistic Gymnastics World Cup</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.iloveqatar.net/events/sports/13th-artistic-gymnastics-world-cup-2021"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">10th - 13th Mar</strong>
+                                            <span class="w-20">Wed - Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-janoub-stadium.html" title="Al Janoub Stadium">Al Janoub Stadium</a></p>
+                                        <p>The 13th Artistic Gymnastics World Cup will be held in the Al Janoub Stadium. The qualifications will be held on the first two days while the finals will take place on the weekends.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/qatar-masters.png" alt="Commercial Bank Qatar Masters Post">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Commercial Bank Qatar Masters</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.qatar-masters.com/commercial-bank-qatar-masters-top-players-sullivan-rai-look-for-glory/"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">11th - 14th Mar</strong>
+                                            <span class="w-20">Thu - Sun</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>One of the most exciting golf matches of the year! Five former champions constitute the 144 players who will be looking forward to win the Mother Pearl trophy in the four-day event.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/World-Singles-Qualification.jpg" alt="World Singles Qualification Tournament Post">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">World Singles Qualification Tournament</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/qatar_olympic/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">15th - 20th Mar</strong>
+                                            <span class="w-20">Mon - Fri</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/lusail-stadium.html" title="Lusail Stadium">Lusail Stadium</a></p>
+                                        <p>The World Singles Qualification Tournament will be held in the Lusail Stadium. This event serves as a qualification event for the Games of the Olympiad Tokyo 2020.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="apr">
+                        <h2 class="flex flex-column w-100">APR 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/flower.jpg" alt="Qatar Flower Festival">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Qatar Flower Festival</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/p/B5iA4EQHXaH/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">4th - 8th Apr</strong>
+                                            <span class="w-20">Wed-Sun</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p>The festival showcases many local nurseries and provides an opportunity for gardening enthusiasts to buy saplings of various flowers.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/worldenergy.png" alt="World Energy Qatar Oil & Gas Exhibition and Conference">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">World Energy Oil & Gas Exhibition</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/worldenergycongress/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">5th - 7th Apr</strong>
+                                            <span class="w-20">Mon-Wed</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>The exhibition will bring together governments and other key gas and LNG stakeholders to shape gas and LNG strategy in Qatar and evaluate the next steps forward for the sector.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="may">
+                        <h2 class="flex flex-column w-100">MAY 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/uniexpo.jpg" alt="Uni Expo Qatar">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Uni Expo Qatar</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/uniexpoqatar/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">8th - 9th May</strong>
+                                            <span class="w-20">Sat - Sun</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>The University Expo Qatar is the only event of its kind in Qatar. A two-day exhibition for students aged 16+, as well as their parents; school counsellors; principals and career advisors.</p>
+                                    </div>
+                        </div>
+                        <div class="eventList">
+                            <img src="assets/images/ajyal_film_festival.jpg" alt="Ajyal Film Festival">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Ajyal Film Festival</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/ajyalfilm/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">18th - 23rd May</strong>
+                                            <span class="w-20">Tue - Sun</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/lusail-stadium.html" title="Lusail Stadium">Lusail Stadium</a></p>
+                                        <p>The Ajyal Film Festival returns through a hybrid edition with a variety of events taking place both online, and physically under the highest precautionary safety measures.</p>
+                                    </div>
+                        </div>
+                        <div class="eventList">
+                            <img src="assets/images/gulf.jpg" alt="Gulf Expo Qatar">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Gulf Expo Qatar</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/gulf.expo/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">27th May</strong>
+                                            <span class="w-20">Thu</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>The event provides students the opportunity to study overseas and receive international level qualification.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="jun">
+                        <h2 class="flex flex-column w-100">JUN 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/kite.jpg" alt="International Kite Festival">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">International Kite Festival </span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/explore/tags/internationalkitefestival/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">6th - 9th Jun</strong>
+                                            <span class="w-20">Sun - Wed</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-janoub-stadium.html" title="Al Janoub Stadium">Al Janoub Stadium</a></p>
+                                        <p>There will be kite flying competitions, along with other fun competitions with valuable prizes for the winners, kite workshops, stalls for food and beverages, entertainment, music, fun and lots of other activities.</p>
+                                    </div>
+                        </div>
+                        <div class="eventList">
+                            <img src="assets/images/ATPopen.jpg" alt="Qatar ExxonMobil Open">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Qatar ExxonMobil Open</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/atptour/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">6th - 13rd Jun</strong>
+                                            <span class="w-20">Mon - Sun</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/lusail-stadium.html" title="Lusail Stadium">Lusail Stadium</a></p>
+                                        <p>According to ATP, tennis champions like Rafael Nadal, Roger Federer, Novak Djokovic, and Andy Murray have won multiple titles at this event.</p>
+                                    </div>
+                        </div>
+                        <div class="eventList">
+                            <img src="assets/images/street_food.jpg" alt="Qatar Street Food Festival">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Qatar Street Food Festival</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/p/B5P8lnZnqet/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">15th - 30th Jun</strong>
+                                            <span class="w-20">Every day</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p>“Street food” is ready-to-eat food or drink sold by a vendor in a street or public area, being sold from a food booth, food cart, or food truck. If you love street food, don’t miss out on eating your way through the Street Food Festival.</p>
+                                    </div>
+                        </div>
+                        <div class="eventList">
+                            <img src="assets/images/jazz.jpg" alt="Katara European Jazz Festival">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Katara European Jazz Festival</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/explore/tags/kataraeuropeanjazzfestival/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">23rd Jun</strong>
+                                            <span class="w-20">Wed</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p>It is one of the most prominent headlines planned by Katara in the process of building ties between peoples through culture, art and creativity.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="jul">
+                        <h2 class="flex flex-column w-100">JUL 2021</h2>
+                        <div class="eventList">
+                                    <img src="assets/images/eid-ul-adha.jpg" alt="Eid Ul Adha Celebrations">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Eid Ul Adha Celebrations</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.iloveqatar.net/news/general/what-you-need-to-know-about-eid-al-adha"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">16th - 24th Jul</strong>
+                                            <span class="w-20">Fri - Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/lusail-stadium.html" title="Lusail Stadium">Lusail Stadium</a></p>
+                                        <p>Celebrate with the range of activiies organized for Eid Al Adha, which is also known as the ‘Festival of Sacrifice’.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/destination-box.jpg" alt="Destination Box">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Destination Box</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/destinationboxqatar/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">1st - 31st Jul</strong>
+                                            <span class="w-20">Thu - Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>Visit the largest and the most famous drive thru in Qatar.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                                    <img src="assets/images/marathon.jpg" alt="5K Marathon Run">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">5K Marathon Run</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/ooredoomarathon/?hl=en"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">23rd Jul</strong>
+                                            <span class="w-20">Fri</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p>Join us on the 5K Marathon Run.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="aug">
+                        <h2 class="flex flex-column w-100">AUG 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/volleyball.jpg" alt="GCC Junior Championship">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">GCC Junior Championship</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/qatar_olympic/?hl=en"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">1st Aug</strong>
+                                            <span class="w-20">Sun</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>GCC Junior Championship</p>
+                                    </div>
+                        </div>
+                        <div class="eventList">
+                            <img src="assets/images/drive-in-cinema.jpg" alt="Drive-in Cinema">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Drive-in Cinema</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.dohafilminstitute.com/nowplaying"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">11th - 21st Aug</strong>
+                                            <span class="w-20">Wed - Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/lusail-stadium.html" title="Lusail Stadium">Lusail Stadium</a></p>
+                                        <p>Enjoy new and old movies under the sky, in the comfort of your car.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="sep">
+                        <h2 class="flex flex-column w-100">SEP 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/table-tennis.jpg" alt="25 Asian div Tennis Championships">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">25 Asian div Tennis Championships</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/qatar_olympic/?hl=en"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">1st - 10th Sep</strong>
+                                            <span class="w-20">Sun - Tue</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-janoub-stadium.html" title="Al Janoub Stadium">Al Janoub Stadium</a></p>
+                                        <p>25 Asian div Tennis Championships</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/squash.jpg" alt="QSF Challenger Senior 5k - Squash">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">QSF Challenger Senior 5k - Squash</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/qatar_olympic/?hl=en"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">12th - 15th Sep</strong>
+                                            <span class="w-20">Sun-Wed</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-Janoub-stadium.html" title="Al Janoub Stadium">Al Janoub Stadium</a></p>
+                                        <p>QSF 3 Psa Challenger Senior 5k - Squash</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/biryani-kebab-festival.jpg" alt="Biryani and Kebab Festival">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Biryani and Kebab Festival</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/biryab_festival/"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">16th - 28th Sep</strong>
+                                            <span class="w-20">Thu - Tue</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p>Enjoy biryani and kebab in the wide range of food stalls, and live entertainment.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="oct">
+                        <h2 class="flex flex-column w-100">OCT 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/shopQatar.png" alt="Shop Qatar Logo">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Shop Qatar Festival</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.visitqatar.qa/en/events/shop-qatar"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">1st - 10th Oct</strong>
+                                            <span class="w-20">Fri - Sun</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p><p>Festival highlighting the breath of shopping available throughout Qatar. Come along for the opportunity to get your hands on the best shopping in Qatar!</p></p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/burgerfest.jpg" alt="burger festival">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Burger Festival</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/burgerfestival.qa/?hl=en"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">9th - 16th Oct</strong>
+                                            <span class="w-20">Sat - Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-janoub-stadium.html" title="Al Janoub Stadium">Al Janoub Stadium</a></p>
+                                        <p>Join us for our Annual Burger Festival, taking place at the Al-Janoub stadium for the first time ever! Experience the best in burger cuisine that Qatar has to offer.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/drive-in-cinema.jpg" alt="Drive-in Cinema">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Drive-in Cinema</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.dohafilminstitute.com/nowplaying"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">16 - 17th Oct</strong>
+                                            <span class="w-20">Sat - Sun</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>Experience the action and thrills of the latest blockbusters from the comfort of your own car! Film listings will be available within 1 week of event.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="nov">
+                        <h2 class="flex flex-column w-100">NOV 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/qiff.jpg" alt="Qatar International Food Festival Tower">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Qatar International Food Festival</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.qf.org.qa/events/qatar-international-food-festival"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">4th - 20th Nov</strong>
+                                            <span class="w-20">Thu - Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>Experience the culture of the world through food! The Qatar international Food Festival gives you the chance to taste the best food from around the world.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/sportsExc.jpg" alt="Sports Excellence Committee">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Sports Excellence Day</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.iloveqatar.net/news/sports/qatar-olympic-committee-celebrates-sports-excellence-day"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">13th Nov</strong>
+                                            <span class="w-20">Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-janoub-stadium.html" title="Al Janoub Stadium">Al Janoub Stadium</a></p>
+                                        <p>A celebration of Qatar's elite sportspeople competing around the world. Join us as the Qatar Olympic Committee honour the best athletes in all of Qatar.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/para.jpg" alt="Group of people parachuting">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">44th World Military Parachuting Championship</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.milsport.one/news/parachuting-associated-events/44th-wmc-parachuting-doha-qat"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">15th - 30th Nov</strong>
+                                            <span class="w-20">Mon - Tue</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/lusail-stadium.html" title="Lusail Stadium">Lusail Stadium</a></p>
+                                        <p>Watch military parachute troops from around the world compete for the top prize!</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/coffee.jpg" alt="coffee cups with chocolate and mint leaves">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Chocolate Tea Coffee Festival</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/ctcfestival/?hl=en"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">8th - 15th Nov</strong>
+                                            <span class="w-20">Mon - Mon</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p>A festival celebrating hot drinks from all corners of Qatar and the globe.</p>
+                                    </div>
+                        </div>
+                    </div>
+
+                    <div id="dec">
+                        <h2 class="flex flex-column w-100">DEC 2021</h2>
+                        <div class="eventList">
+                            <img src="assets/images/fifa.jpg" alt="Stadium celebrating football match">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">FIFA Arab Cup 2021</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.qatar2022.qa/en/news/fifa-president-confirms-22-national-teams-will-take-part-in-fifa-arab-cup-2021"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">1st - 18th Dec</strong>
+                                            <span class="w-20">Wed - Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/lusail-stadium.html" title="Lusail Stadium">Lusail Stadium</a></p>
+                                        <p>22 team tournament taking place ahead of the FIFA World Cup in 2022!</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/cup.jpg" alt="Poster with team badges">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Qatar Cup Final</span>
+                                            <a class="insta-link" title="Website Link" href="https://www.qsl.qa/en/qatar-cup"><i class='fa fa-globe' title="Website Link"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">12th Dec</strong>
+                                            <span class="w-20">Sat</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/al-bayt-stadium.html" title="Al Bayt Stadium">Al Bayt Stadium</a></p>
+                                        <p>Qatar Cup Football Final between the two best teams in the nation.</p>
+                                    </div>
+                        </div>
+
+                        <div class="eventList">
+                            <img src="assets/images/artFestival.jpg" alt="Art Festival Logo with brush strokes">
+                                    <div class="event-info">
+                                        <div class="flex flex-row">
+                                            <span class="event-title w-80">Qatar International Art Festival</span>
+                                            <a class="insta-link" title="Instagram" href="https://www.instagram.com/qiafmapsqatar/?hl=en"><i class='fa fa-instagram' title="Instagram"></i></a>
+                                        </div>
+                                        <p class="flex flex-row">
+                                            <strong class="w-80">4th - 10th Dec</strong>
+                                            <span class="w-20">Sat - Fri</span>
+                                        </p>
+                                        <p><i class="fa fa-map-marker" title="Position Icon"></i>&nbsp;&nbsp;<a href="stadiums/ec-stadium.html" title="Education City Stadium">Education City Stadium</a></p>
+                                        <p>Take in the best and most unique artists from around the world as internationally renowned artists descend on the Lusail stadium to show off their creations.</p>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <footer id="footer">
+            <div class="linkToTop">
+                <a href="#headPic"><i class="fa fa-chevron-up"></i>&nbsp;&nbsp;&nbsp;Back to top</a>
+            </div>
+            <div class="flex flex-row">
+                <div class="flex flex-column flex-row-ns footer-link">
+                    <a href="stadiums/al-bayt-stadium.html" class="w-50 w-100-ns"> Al Bayt Stadium</a>
+                    <a href="stadiums/al-janoub-stadium.html" class="w-50 w-100-ns"> Al Janoub Stadium</a>
+                </div>
+                <div id="logo-dark">
+                    <img src="assets/images/wc2022logo-vertical.png" alt="Dark Logo">
+                </div>
+                <div class="flex flex-column flex-row-ns footer-link">
+                    <a href="stadiums/ec-stadium.html" class="w-50 w-100-ns"> Education City Stadium</a>
+                    <a href="stadiums/lusail-stadium.html" class="w-50 w-100-ns"> Lusail Stadium</a>
+                </div>
+            </div>
+            <hr class="horizontal-rule">
+            <div id="social-media">
+                <a href="https://www.facebook.com/anqi.jiang.982?hc_ref=ARS12QqIehERjRuzRe4-63UoOtIt4q0NNrdkpPLGw9w7fvj0P8XeFaMQM5Kaejs50BM&ref=nf_target" title="Facebook"><i class='fa fa-facebook' title="Facebook"></i></a>
+                <a href="https://www.instagram.com/worldcupstadium2021/" title="Instagram"><i class='fa fa-instagram' title="Instagram"></i></a>
+                <a href="https://weibo.com/u/7570451978" title="Weibo"><i class='fa fa-weibo' title="Weibo"></i></a>
+            </div>
+            <p id="copyright">&#169; World Cup 2022 Stadiums</p>
+        </footer>
+
+        <!-- Script for mobile nav -->
+        <script src="assets/script.js"></script>
+        <!-- Script for mobile nav -->
+    </body>
+</html>
+</html>

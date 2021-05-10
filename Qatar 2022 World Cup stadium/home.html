@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="icon" href="assets/images/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="assets/styles/mobile-nav.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/custom.css">
+        <link rel="stylesheet" type="text/css" href="assets/styles/tachyons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+        <title>Home | World Cup 2022 Stadiums</title>
+    </head>
+    <body>
+        <nav id="main-nav" class="flex flex-row">
+            <div id="nav-logo">
+                <img src="assets/images/wc2022logo-horizontal-light.png" alt="World Cup 2022 Logo">
+            </div>
+            <div id="nav-links">
+                <a id="selected-menu-item" href="home.html"><b>Home</b></a>
+                <a href="why-visit.html">Why Visit?</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Stadiums <i class="pl1 fa fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="stadiums/al-bayt-stadium.html">Al Bayt Stadium</a>
+                        <a href="stadiums/al-janoub-stadium.html">Al Janoub Stadium</a>
+                        <a href="stadiums/ec-stadium.html">EC Stadium</a>
+                        <a href="stadiums/lusail-stadium.html">Lusail Stadium</a>
+                    </div>
+                </div>
+                <a href="events.html">Events</a>
+            </div>
+        </nav>
+
+        <!-- Mobile menu -->
+        <button id="burger" class="open-mobile-nav">
+                <span class="burger"></span>
+                    <span class="burger-text">Menu</span>
+                </button>
+        
+        <nav class="mobile-nav" id="mobile-nav">
+                <ul>
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="why-visit.html">Why Visit?</a>
+                    </li>
+                    <li>
+                        <a href="stadiums/al-bayt-stadium.html">Al Bayt Stadium</a>
+                    </li>
+                    <li>
+                        <a href="stadiums/al-janoub-stadium.html">Al Janoub Stadium</a>
+                    </li>
+                    <li>
+                        <a href="stadiums/ec-stadium.html">Education City Stadium</a>
+                    </li>
+                    <li>
+                        <a href="stadiums/lusail-stadium.html">Lusail Stadium</a>
+                    </li>
+                    <li>
+                        <a href="events.html">Events</a>
+                    </li>
+                </ul>
+        </nav>
+        <!-- Mobile menu -->
+
+        <div class="header" id="headpic">
+            <h1 class="homeHeading">World Cup 2022<br>
+            Stadiums</h1>
+        </div>
+
+        <div class="container" id="home">
+            <!-- Place page contents here -->
+
+            <div class="welcome">
+                <h2 class="title">Welcome!</h2>
+                <p>Please enjoy getting to know more about the stadiums that will host the 2022 FIFA World Cup in Qatar.<br>
+                Here you can learn about the cultural history of the stadiums, <a href="why-visit.html">some of the best reasons to visit Qatar</a>, and get information on all of the events taking place at each location,<br>
+                including matches for the 2022 FIFA World Cup!<br>
+                <br>
+                Click on any stadium below to learn more about it's history and get all the info you need ahead of any events.</p>    
+            </div>
+            
+            <div class="intMap">
+                <img class="map" src="assets/images/qatar_map.jpg" alt="Qatar Map">
+                <div class="al-bayt"><a href="stadiums/al-bayt-stadium.html">Al-Bayt</a></div>
+                <div class="lusail"><a href="stadiums/lusail-stadium.html">Lusail</a></div>
+                <div class="ecity"><a href="stadiums/ec-stadium.html">Education City</a></div>
+                <div class="al-janoub"><a href="stadiums/al-janoub-stadium.html">Al-Janoub</a></div>
+            </div>
+
+            <div id="hEvents">
+               <table class="homeTable" border = "5">
+                    <tr>
+                        <th><b>Events</b></th>
+                        <th><b>Location</b></th>
+                        <th><b>Date</b></th>
+                    </tr>
+                    <tr>
+                        <td><a href="events.html#jan">Qatar Hot Air Balloon Festival</a></td>
+                        <td><a href="stadiums/al-bayt-stadium.html"> Al Bayt Stadium</a></td>
+                        <td>1/1/21</td>
+                    </tr>
+                    <tr>
+                        <td><a href="events.html#jul">Eid Ul Adha Celebrations</a></td>
+                        <td><a href="stadiums/lusail-stadium.html"> Lusail Stadium</a></td>
+                        <td>16/7/21</td>
+                    </tr>
+                    <tr>
+                        <td><a href="events.html#nov">Qatar International Food Festival</a></td>
+                        <td><a href="stadiums/ec-stadium.html">Education City Stadium</a></td>
+                        <td>4/11/21</td>
+                    </tr>
+                    <tr>
+                        <td><a href="events.html#dec">FIFA Arab Cup 2021</a></td>
+                        <td><a href="stadiums/lusail-stadium.html">Lusail Stadium</a></td>
+                        <td>1/12/21</td>
+                    </tr>
+                </table>
+            </div>
+
+          <!--  <div id="socialLinks">
+                <a class="insta" href="https://www.instagram.com/worldcupstadium2021/?hl=en"><img src="assets/images/instagram_icon.jpg" width="80" alt="Instagram Link"></a>
+                <a class="ilq" href="https://www.iloveqatar.net"><img src="assets/images/iLoveQ.jpg" width="80" alt="I Love Qatar Link"></a>
+                <a class="vq" href="https://www.visitqatar.qa/en/home"><img src="assets/images/visitQatar.jpg" width="80" alt="Visit Qatar Link"></a>
+            </div> -->
+        </div>
+
+        <footer id="footer">
+            <div class="linkToTop">
+                <a href="#headpic"><i class="fa fa-chevron-up"></i>&nbsp;&nbsp;&nbsp;Back to top</a>
+            </div>
+            <div class="flex flex-row">
+                <div class="flex flex-column flex-row-ns footer-link">
+                    <a href="stadiums/al-bayt-stadium.html" class="w-50 w-100-ns"> Al Bayt Stadium</a>
+                    <a href="stadiums/al-janoub-stadium.html" class="w-50 w-100-ns"> Al Janoub Stadium</a>
+                </div>
+                <div id="logo-dark">
+                    <img src="assets/images/wc2022logo-vertical.png" alt="Dark Logo">
+                </div>
+                <div class="flex flex-column flex-row-ns footer-link">
+                    <a href="stadiums/ec-stadium.html" class="w-50 w-100-ns"> Education City Stadium</a>
+                    <a href="stadiums/lusail-stadium.html" class="w-50 w-100-ns"> Lusail Stadium</a>
+                </div>
+            </div>
+            <hr class="horizontal-rule">
+            <div id="social-media">
+                <a href="https://www.facebook.com/anqi.jiang.982?hc_ref=ARS12QqIehERjRuzRe4-63UoOtIt4q0NNrdkpPLGw9w7fvj0P8XeFaMQM5Kaejs50BM&ref=nf_target" title="Facebook"><i class='fa fa-facebook'  title="Facebook"></i></a>
+                <a href="https://www.instagram.com/worldcupstadium2021/" title="Instagram"><i class='fa fa-instagram'  title="Instagram"></i></a>
+                <a href="https://weibo.com/u/7570451978" title="Weibo"><i class='fa fa-weibo'  title="Weibo"></i></a>
+            </div>
+            <p id="copyright">&#169; World Cup 2022 Stadiums</p>
+        </footer>
+
+        <!-- Script for mobile nav -->
+        <script src="assets/script.js"></script>
+        <!-- Script for mobile nav -->
+    </body>
+</html>

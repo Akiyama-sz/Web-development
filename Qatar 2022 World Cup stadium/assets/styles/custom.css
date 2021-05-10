@@ -1,0 +1,1306 @@
+/* ---------- General Styles ------------- */
+
+@font-face {
+    font-family: 'qatar2022Font';
+    src: url(../fonts/Qatar2022Arabic-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+.bg-maroon {
+    background: #9e1c40;
+}
+
+.bg-gold {
+    background: #edd37e;
+}
+
+.text-gold {
+    color: #edd37e;
+}
+
+.text-maroon {
+    color: #9e1c40;
+}
+
+h1, h2 {
+    font-family: 'qatar2022Font';
+}
+
+/* ---------- General Styles ------------- */
+
+
+/* ---------- Styles for Navigation and Footer------------- */
+
+nav {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav a:hover, #selected-menu-item {
+    border-bottom: 0.25em solid white;
+}
+
+#selected-dropbtn {
+    font-weight: bold;
+}
+
+#nav-logo, #logo-dark {
+    padding: 0.5em 1em;
+}
+
+#nav-logo img{
+    height: 2.5em;
+}
+
+#logo-dark img {
+    height: 6em;
+}
+
+#nav-links {
+  position: absolute;
+  right: 0;
+}
+
+nav a {
+    padding: 1em 2em 0.5em 2em;
+    text-decoration: none;
+    color: #fff;
+    margin: 0em 2em 0.5em 2em;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 1em 2em 0.5em 2em;
+    text-decoration: none;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 1.2em 2em;
+    text-decoration: none;
+    display: block;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+
+#footer {
+    padding: 5em 5em 1em 5em;
+    clear: both;
+}
+
+#footer hr, #stadium-transportation hr {
+    opacity: 0.5;
+}
+
+.footer-link {
+    width: 40%;
+    text-align: center;
+}
+
+.footer-link a {
+    margin: auto;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
+
+#logo-dark {
+    width: 20%;
+    padding: 3em 0em 0em 0em;
+    text-align: center;
+}
+
+.footer-link a {
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.footer-link {
+    padding-top: 1.5em;
+}
+
+.footer-link a:hover {
+    color: #9e1c40;
+}
+
+.linkToTop{
+    padding: 0em 2em 3em 2em;
+    text-align: right;
+    font-weight: bold;
+}
+
+.linkToTop a{
+    text-decoration: none;
+    color: #333;
+}
+
+.linkToTop a:hover{
+    color: #777;
+}
+
+#social-media{
+    padding: 1em 0em;
+    text-align: center;
+}
+
+#social-media a{
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+    padding: 0em 0.5em;
+}
+
+#social-media a:hover{
+    color: #9e1c40
+}
+
+#copyright {
+    text-align: center;
+}
+  
+
+/* ---------- Styles for Homepage ------------- */
+#hEvents{
+  padding: 5em;
+}
+
+.homeTable{
+  color: #3f4145;
+  border-color: #9e1c40;
+  float: right;
+  font-size: 1.1em;
+}
+
+.homeTable, th, td{
+  padding: .5em;
+}
+
+th, td{
+  padding: 1em;
+  border-color: #9e1c40;
+}
+
+.homeTable td a{
+  color:  #3f4145;
+  background-color: white;
+  padding: .6em .3em;
+}
+
+.homeTable td a:hover{
+  font-weight: 800 !important;
+  border: 2px solid #9e1c40 !important;
+}
+
+#socialLinks{
+  padding-top: 4em;
+  padding-right: 4em;
+  margin-right: 4em;
+  float: right;
+  clear: right;
+}
+
+.container .intMap{
+  position: relative;
+  text-align: center;
+  font-family: 'qatar2022Font';
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #edd37e;
+}
+
+.intMap a{
+  text-decoration: none;
+  color: #edd37e;
+}
+
+.intMap a:hover{
+  background-color: #9e1c40;
+}
+
+.al-bayt{
+  position: absolute;
+  top: 10.7em;
+  left: 17.5em;
+}
+
+.lusail{
+  position: absolute;
+  top: 15.8em;
+  left: 17.5em;
+}
+
+.ecity{
+  position: absolute;
+  top: 18.7em;
+  left: 14em;
+}
+
+.al-janoub{
+  position: absolute;
+  top: 23.7em;
+  left: 16.5em;
+}
+
+.container .welcome{
+  text-align: center;
+  font-size: 1.3em;
+  color: #3f4145;
+  padding: 2em;
+}
+
+.container .welcome .title{
+  font-family: 'qatar2022Font';
+  font-weight: bold;
+  font-size: 2em;
+  color: #3f4145;
+
+
+}
+
+.header{
+  height: 350px;
+  width: 100%;
+  background: url('../images/homeHeader2.jpg') no-repeat left;
+  background-size: cover ;
+}
+
+.header .homeHeading{
+  font-family: 'qatar2022Font';
+  font-weight: bold;
+  font-size: 3.5em;
+  color: #edd37e;
+  position: absolute;
+  text-align: center;
+  top: 2em;
+  left: 1em;
+}
+
+.map{
+  float: left;
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 6em;
+  padding-top: 5em;
+}
+
+.insta{
+  padding-right: 1em;
+  margin-right: 4em;
+}
+
+.insta:hover{
+  opacity: 0.6;
+}
+
+.ilq{
+  padding: 1em;
+  margin-right: 1em;
+}
+
+.ilq:hover{
+  opacity: 0.6;
+}
+
+.vq{
+  padding: 1em;
+  margin-right: 1em;
+}
+
+.vq:hover{
+  opacity: 0.6;
+}
+
+
+/* ---------- Styles for Stadium Pages ------------- */
+
+
+.full-width-banner {
+    height: 350px;
+}
+
+#al-bayt-stadium .full-width-banner {
+    background: url('../images/bayt-header-banner.jpg') no-repeat left;
+    background-size: cover ;
+}
+
+#al-janoub-stadium .full-width-banner {
+    background: url('../images/janoub-header-banner.jpg') no-repeat left;
+    background-size: cover ;
+}
+
+#ec-stadium .full-width-banner {
+    background: url('../images/ec-header-banner.jpg') no-repeat left;
+    background-size: cover ;
+}
+
+#lusail-stadium .full-width-banner {
+    background: url('../images/lusail-header-banner.jpg') no-repeat left;
+    background-size: cover ;
+}
+
+#events .full-width-banner{
+    background: url('../images/eventsHead.jpg') no-repeat;
+    background-size: cover ;
+}
+
+#stadium-top-nav {
+    color: white;
+    padding: 3em 2em 0em 2em;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#stadium-top-nav button{
+    background: white;
+    float: left;
+    border: 1px solid #aaa;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    width: 24%; 
+    margin: 1em;
+}
+
+#stadium-top-nav button:hover {
+    font-weight: 800 !important;
+    border: 2px solid #9e1c40 !important;
+}
+
+#stadium-content {
+    scroll-behavior: smooth;
+}
+
+#stadium-content {
+    font-size: 1.2em;
+}
+
+#stadium-content h2 {
+    color: #3f4145;
+}
+
+#stadium-event, #stadium-significance, #stadium-sustainability, #stadium-transportation {
+    clear: both;
+    padding: 8em 5em;
+    font-size: 1.1em;
+}
+
+.stadium-container h1 {
+    position: absolute;
+    top: 7em;
+    font-size: 2.5em;
+    padding-left: 1em;
+}
+
+#stadium-event .eventList{
+    color: #3f4145;
+    width: 25em;
+    float: none;
+    margin: 0em 1em 2em 0em;
+    border: 1px solid #ddd;
+}
+
+#stadium-event .eventList td{
+    padding: 0em;
+}
+
+.eventList i {
+    font-size: 2em;
+    color: #3366BB;
+}
+
+.insta-link:hover {
+  opacity: 0.5;
+}
+
+.event-title {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#stadium-transportation li {
+  list-style-type: none;
+  padding: 1em 0em;
+  line-height: 1.8em;
+}
+
+#stadium-transportation ul {
+  padding-left: 0;
+}
+
+.stadium-container hr {
+  margin: 5em 0em;
+}
+
+#stadium-transportation h3{
+  font-size: 0.9em;
+  margin-bottom: 0;
+}
+
+#stadium-transportation h4{
+  font-size: 0.8em;
+  margin-bottom: 0;
+}
+
+/* ---------- Styles for Event Page ------------- */
+#headPic {
+    height: 350px;
+    background: url("../images/eventsHead.jpg") no-repeat left;
+    background-size: cover ;
+}
+
+#eventHeader{
+    font-size: 40px;
+    font-family: 'qatar2022Font';
+    color: #edd37e;
+    z-index: 10;
+    position: fixed;
+    left:5%;
+    top:20%;
+}
+
+#eEvents{
+    padding:4em;
+}
+
+#eEvents h2 {
+    padding-top: 2em;
+}
+
+.eventList{
+    border: 1px solid #ddd;
+    color: #3f4145;
+    width: 25em;
+    float: left;
+    margin: 0em 1em 2em 0em;
+}
+
+.event-info {
+    height: 20em;
+    padding: 2em 1em;
+    overflow: scroll;
+}
+
+#eventsSelector {
+    color: white;
+    padding: 3em 2em 0em 2em;
+    font-weight: bold;
+    font-size: 1em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#eventsSelector button{
+    background: white;
+    float: left;
+    border: 1px solid #aaa;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 22px;
+    width: 8%;
+    margin-top:1em;
+    margin-bottom:2em;
+}
+
+#eventsSelector button:hover {
+    font-weight: 800 !important;
+    border: 1px solid #9e1c40 !important;
+}
+/* ---------- Styles for Event Page ------------- */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.full-width-banner {
+    height: 175px;
+    width: 100%;
+}
+
+#stadium-top-nav {
+    padding: 0em 1em 0em 1em;
+    font-weight: bold;
+    font-size: 1em;    
+}
+
+#stadium-top-nav button{
+    width: 45%; 
+    margin: 0.5em;
+    min-height: 4em;
+    line-height: 1.2em;
+}
+
+.stadium-container h1 {
+    position: absolute;
+    top: 4.2em;
+    font-size: 2em;
+}
+
+#stadium-event, #stadium-significance, #stadium-sustainability, #stadium-transportation {
+    padding: 7em 2em;
+}
+
+#stadium-content h2 {
+    font-size: 1em;
+}
+
+#stadium-event .eventList{
+    width: 100%;
+    margin: 0em 0em 3em 0em;
+}
+
+.event-info {
+    height: auto;
+    padding: 1em;
+}
+
+.event-info p{
+    font-size: 0.9em;
+}
+
+.event-title{
+    font-size: 1em;
+}
+
+.insta-link {
+    font-size: 0.8em;
+}
+
+#stadium-significance p, #stadium-sustainability p, #stadium-transportation p{
+    font-size: 0.9em;
+}
+
+#stadium-transportation li {
+    font-size: 0.9em;
+    padding: 0.7em 0em;
+}
+
+nav a, .dropbtn{
+    padding: 1em 4em 0.5em 4em;
+}
+
+.by-metro img, .by-car img, #stadium-significance img, #stadium-sustainability img {
+    display: none;
+}
+
+.eventList div {
+    height: auto;
+}
+
+.stadium-container hr {
+    margin: 2em 0em;
+}
+
+.footer-link {
+    width: 40%;
+}
+
+.footer-link a {
+    margin: auto;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
+
+#logo-dark {
+    width: 20%;
+    padding: 3em 0em 0em 0em;
+}
+
+#footer {
+    padding: 2em 1em 1em 1em;
+}
+
+#logo-dark img {
+    height: auto;
+}
+  
+#main-nav {
+    display: none;
+}
+
+.open-mobile-nav {
+    display: block;
+}
+
+           /*---------------Homepage--------------*/
+
+    .header {
+      height: 175px;
+      width: 100%;
+    }
+    
+
+    .header .homeHeading{
+      font-size: 2em;
+      top: 1.7em;
+      left: 1em;
+    }
+
+    .container .welcome .title{
+      font-size: 1.5em;
+    }
+
+    .container .welcome{
+      font-size: 1em;
+      padding: 2em;
+    }
+
+    .container .intMap{
+      position: relative;
+      top: -4em;
+      left: -4em;
+      text-align: center;
+      font-family: 'qatar2022Font';
+      font-weight: bold;
+      font-size: .95em;
+      color: #edd37e;
+    }
+
+    .al-janoub{
+     position: absolute;
+      top: 24.1em;
+      left: 17.5em;
+    }
+
+    #hEvents{
+      padding: 1em;
+    }
+
+    .homeTable{
+      font-size: .7em;
+      line-height: 2em;
+    }
+
+    .homeTable, th, td{
+      padding: 0;
+    }
+
+    th, td{
+      padding: 1em;
+      border-color: #9e1c40;
+    }
+
+    .insta{
+      padding-right: 0;
+      padding-left: .3em;
+      margin-right: 1em;
+    }
+
+    .ilq{
+      padding: 0;
+      margin-right: .5em;
+    }
+
+    .vq{
+      padding: 0;
+      margin-right: 0;
+    }
+
+}
+
+@media only screen and (min-width: 450px) and (max-width: 600px) {
+
+      .header {
+      height: 175px;
+      width: 100%;
+    }
+
+    .header .homeHeading{
+      font-size: 2em;
+      top: 1.7em;
+      left: 1em;
+    }
+
+    .container .welcome .title{
+      font-size: 1.5em;
+    }
+
+    .container .welcome{
+      font-size: 1em;
+      padding: 2em;
+    }
+
+    .container .intMap{
+      position: relative;
+      top: -4em;
+      left: -4em;
+      text-align: center;
+      font-family: 'qatar2022Font';
+      font-weight: bold;
+      font-size: .95em;
+      color: #edd37e;
+    }
+
+    .al-janoub{
+     position: absolute;
+      top: 31em;
+      left: 20em;
+    }
+
+    .al-bayt{
+      position: absolute;
+      top: 13em;
+      left: 20em;
+    }
+
+    .lusail{
+      position: absolute;
+      top: 20em;
+      left: 20.5em;
+    }
+
+    .ecity{
+      position: absolute;
+      top: 24em;
+      left: 17.5em;
+    }
+
+    #hEvents{
+      padding: 6em;
+    }
+
+    .homeTable{
+      font-size: .7em;
+      line-height: 2em;
+    }
+
+    .homeTable, th, td{
+      padding: 0;
+    }
+
+    th, td{
+      padding: 1em;
+      border-color: #9e1c40;
+    }
+
+    .insta{
+      padding-right: 0;
+      padding-left: .3em;
+      margin-right: 1em;
+    }
+
+    .ilq{
+      padding: 0;
+      margin-right: .5em;
+    }
+
+    .vq{
+      padding: 0;
+      margin-right: 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px){
+  .full-width-banner {
+    height: 150px;
+  }
+
+  #stadium-top-nav {
+    padding: 0em 0.5em 0em 0.5em;
+    font-weight: bold;
+  }
+
+  #stadium-top-nav button{
+    width: 23%;
+    margin: 0.5em;
+    min-height: 5em;
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+
+  .stadium-container h1 {
+    position: absolute;
+    top: 5em;
+    font-size: 1.5em;
+  }
+
+  #stadium-event, #stadium-significance, #stadium-sustainability, #stadium-transportation {
+    padding: 4em 3em;
+  }
+
+  #stadium-event .eventList{
+    width: 45%;
+  }
+
+  #stadium-significance p, #stadium-sustainability p, #stadium-transportation p{
+    font-size: 0.9em;
+  }
+
+  #stadium-transportation li {
+    font-size: 0.9em;
+    padding: 0.7em 0em;
+  }
+
+  .by-metro img, .by-car img, #stadium-significance img, #stadium-sustainability img {
+    display: none;
+  }
+
+  .stadium-container hr {
+    margin: 2em 0em;
+  }
+
+  #footer {
+    padding: 2em 1em 1em 1em;
+  }
+
+  #main-nav {
+    display: none;
+  }
+
+  .open-mobile-nav {
+    display: block;
+  }
+
+             /*---------------Homepage--------------*/
+
+
+    #home{
+      width: 90%;
+      margin-left: 5%;
+    }
+
+    .header{
+      height: 150px;
+      width: 100%;
+    }
+
+    .header .homeHeading{
+      font-size: 1.6em;
+      top: 2.5em;
+      left: .5em;
+    }
+
+    .container .welcome .title{
+      font-size: 1.5em;
+    }
+
+    .container .welcome{
+      font-size: 1.2em;
+      padding: .1em;
+    }
+
+    .container .intMap{
+      position: relative;
+      top: -4em;
+      left: -1em;
+      text-align: center;
+      font-family: 'qatar2022Font';
+      font-weight: bold;
+      font-size: 1.2em;
+      color: #edd37e;
+    }
+
+    .al-bayt{
+      position: absolute;
+      top: 11.5em;
+      left: 20em;
+    }
+
+    .lusail{
+      position: absolute;
+      top: 17.5em;
+      left: 19.5em;
+    }
+
+    .ecity{
+      position: absolute;
+      top: 21em;
+      left: 16em;
+    }
+
+    .al-janoub{
+     position: absolute;
+      top: 27em;
+      left: 18em;
+    }
+
+    #hEvents{
+      padding: 6em;
+    }
+
+    .homeTable{
+      font-size: 1em;
+      line-height: 2.5em;
+    }
+
+    .homeTable, th, td{
+      padding: 0;
+    }
+
+    th, td{
+      padding: 1em;
+      border-color: #9e1c40;
+    }
+
+    .insta{
+      padding-right: 2em;
+      padding-left: 1em;
+      margin-right: 1em;
+    }
+
+    .ilq{
+      padding: 2em;
+      margin-right: .5em;
+    }
+
+    .vq{
+      padding: 4em;
+      margin-right: 0;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .full-width-banner {
+      height: 175px;
+    }
+
+    #stadium-top-nav {
+      padding: 1em 2em 0em 2em;
+      font-weight: bold;
+    }
+
+    #stadium-top-nav button{
+      width: 23%;
+      margin: 0.5em;
+      min-height: 5em;
+      font-size: 0.8em;
+      line-height: 1.2em;
+    }
+
+    .stadium-container h1 {
+      position: absolute;
+      top: 6em;
+      font-size: 1.5em;
+    }
+
+    #stadium-event, #stadium-significance, #stadium-sustainability, #stadium-transportation {
+      padding: 5em 3em;
+    }
+
+    #stadium-event .eventList{
+      width: 47.5%;
+    }
+
+    #stadium-significance p, #stadium-sustainability p, #stadium-transportation p{
+      font-size: 0.9em;
+    }
+
+    #stadium-transportation li {
+      font-size: 0.9em;
+      padding: 0.7em 0em;
+    }
+
+    .by-metro img, .by-car img, #stadium-significance img, #stadium-sustainability img {
+      display: none;
+    }
+
+    .stadium-container hr {
+      margin: 2em 0em;
+    }
+
+    #footer {
+      padding: 2em 1em 1em 1em;
+    }
+
+    #main-nav {
+      display: none;
+    }
+
+    .mobile-nav a {
+      padding: 0.7em 0;
+      font-size: 1.5rem;
+    }
+
+    .open-mobile-nav {
+      display: block;
+    }
+
+                 /*---------------Homepage--------------*/
+
+
+    .header .homeHeading{
+      font-size: 2.2em;
+      top: 4em;
+      left: .5em;
+    }
+
+     .container .intMap{
+        position: relative;
+        top: -4em;
+        left: 4em;
+        text-align: center;
+        font-family: 'qatar2022Font';
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #edd37e;
+      }
+
+       .al-bayt{
+        position: absolute;
+        top: 10.3em;
+        left: 16.5em;
+      }
+
+      .lusail{
+        position: absolute;
+        top: 15em;
+        left: 16.3em;
+      }
+
+      .ecity{
+        position: absolute;
+        top: 17.7em;
+        left: 12.6em;
+      }
+
+      .al-janoub{
+        position: absolute;
+        top: 22.5em;
+        left: 15em;
+      }
+
+      #hEvents{
+        padding-top: 4em;
+        padding-right: 12em;
+        padding-left: 0;
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    #stadium-top-nav {
+      font-weight: bold;
+    }
+
+    #stadium-top-nav button{
+      width: 23%;
+      margin: 0.5em;
+      min-height: 4em;
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+
+    .dropdown {
+      margin: 0em 3em 0em 3em;
+    }
+
+    #stadium-event, #stadium-significance, #stadium-sustainability, #stadium-transportation {
+      padding: 6.5em 3em;
+    }
+
+    #stadium-event .eventList{
+      width: 31.5%;
+    }
+
+    #stadium-significance p, #stadium-sustainability p, #stadium-transportation p{
+      font-size: 0.9em;
+    }
+
+    #stadium-transportation li {
+      font-size: 0.9em;
+      padding: 0.7em 0em;
+    }
+
+    .by-metro img, .by-car img, #stadium-significance img, #stadium-sustainability img {
+      display: block;
+      padding-left: 2em;
+    }
+
+    .stadium-container hr {
+      margin: 2em 0em;
+    }
+
+    .by-car-text, .by-metro-text {
+      width: 50%;
+    }
+
+    .event-title {
+      font-size: 1.1em;
+    }
+
+    #stadium-content {
+      font-size: 1.2em;
+    }
+
+    #stadium-content h2 {
+      padding-bottom: 1em ;
+    }
+
+                     /*---------------Homepage--------------*/
+
+
+      .header .homeHeading{
+      font-size: 2.5em;
+      top: 4em;
+      left: .5em;
+    }
+
+     .container .intMap{
+        position: relative;
+        width: 50%;
+        top: -4em;
+        left: 8em;
+        text-align: center;
+        font-family: 'qatar2022Font';
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #edd37e;
+        padding: 0;
+        margin: 0;
+      }
+
+       .al-bayt{
+        position: absolute;
+        top: 10em;
+        left: 15em;
+      }
+
+      .lusail{
+        position: absolute;
+        top: 14em;
+        left: 15em;
+      }
+
+      .ecity{
+        position: absolute;
+        top: 17em;
+        left: 12em;
+      }
+
+      .al-janoub{
+        position: absolute;
+        top: 21em;
+        left: 175px;
+      }
+
+      #hEvents{
+        padding-top: 4em;
+        padding-right: 18em;
+        padding-left: 0;
+        margin: 0;
+      }
+
+      .homeTable, th, td{
+        padding: 1em;
+      }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  nav a {
+    margin: 0em 3em 0.5em 3em;
+  }
+
+  .dropdown {
+    margin: 0em 3em 0em 3em;
+  }
+
+  .stadium-container h1 {
+    position: absolute;
+    top: 6.5em;
+    font-size: 3em;
+  }
+
+ 
+
+              /*---------------Homepage--------------*/
+
+    .header .homeHeading{
+      font-size: 2.5em;
+      top: 4em;
+      left: 1em;
+    }
+
+     .container .intMap{
+        position: relative;
+        top: -4em;
+        left: 0;
+        text-align: center;
+        font-family: 'qatar2022Font';
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #edd37e;
+      }
+
+       .al-bayt{
+        position: absolute;
+        top: 10.3em;
+        left: 16.5em;
+      }
+
+      .lusail{
+        position: absolute;
+        top: 15em;
+        left: 16.3em;
+      }
+
+      .ecity{
+        position: absolute;
+        top: 17.7em;
+        left: 12.6em;
+      }
+
+      .al-janoub{
+        position: absolute;
+        top: 22.5em;
+        left: 15em;
+      }
+
+      #hEvents{
+        padding-top: 8em;
+        padding-right: 10em;
+        padding-left: 0;
+      }
+
+}
+
